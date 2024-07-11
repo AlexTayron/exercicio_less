@@ -1,0 +1,27 @@
+header {
+    background-color: @header-color;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: @padding 0;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    font-weight: @menu-font-weight;
+    margin-left: @menu-margin-left;
+}
+
+.menu li a {
+    color: @text-color;
+    text-decoration: none;
+}
